@@ -1,0 +1,7 @@
+# Calcular el perímetro de un rectángulo
+print("Calcular el perímetro de un rectángulo")
+print("-" * 40)
+largo = float(input("Largo: "))
+ancho = float(input("Ancho: "))
+perimetro = 2 * (largo + ancho)
+print("Perímetro:", round(perimetro, 2))
